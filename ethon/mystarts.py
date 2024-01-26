@@ -8,6 +8,8 @@ async def start_srb(event, st):
                       buttons=[
                               [Button.inline("SET THUMB.", data="set"),
                                Button.inline("REM THUMB.", data="rem")],
+                               Button.inline("Start.", data="start")],
+                               Button.inline("Batch.", data="batch")],
                               [Button.url("DEV", url="t.me/MaheshChauhan")]])
                               
     
